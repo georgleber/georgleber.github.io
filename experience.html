@@ -1,0 +1,39 @@
+---
+layout: page
+title: Experience
+sidebar_link: true
+---
+
+<div class="experience-list">
+    {% for experience in site.data.experiences %}
+    <div class="experience">
+        <header class="label" aria-label="2018 to Present">
+            {{experience.year}}
+        </header>
+        <div class="description">
+            <h3 class="role">
+                {{experience.role}}
+            </h3>
+            <div class="company-info">
+                {% if experience.company_link %}
+                <a class="company-link" href="{{experience.company_link}}" target="_blank" rel="noreferrer">
+                    {{experience.company}} {% include svg/link.svg %}
+                </a>
+                {% else %}
+                {{experience.company}}
+                {% endif %}
+            </div>
+            <p class="job-info">
+                {{experience.job_info}}
+            </p>
+
+            {% include tags.html tags=experience.tags %}
+
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<p>
+    <a href="/assets/files/CV-GeorgLeber.pdf" target="_blank" title="Curriculum Vitae">View my Curriculum Vitae</a>
+</p>

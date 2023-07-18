@@ -1,6 +1,6 @@
 ---
-layout: category
-title: Edge Case
+layout: #category
+title: Brot backen
 ---
 
 Sample category page. You need to create a page for each category.

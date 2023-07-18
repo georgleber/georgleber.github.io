@@ -1,6 +1,12 @@
 {% if page.comments != false %}
   <section class="comments">
     <h2>Comments</h2>
-    {% include disqus.html %}
+    {% if site.disqus.enable %}
+      {% include disqus.html %}
+    {% else if site.utterances.enable %}
+      {% include utterances.html %}
+    {% endif %}
   </section>
 {% endif %}
+
+

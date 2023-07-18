@@ -1,35 +1,54 @@
 # Dependencies
-markdown:         kramdown
-highlighter:      rouge
+markdown: kramdown
+highlighter: rouge
 
 # Setup
-title:            Georg Leber
-tagline:          'Another developer CV / blog'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
-url:              https://georgleber.github.io
-baseurl:          '/'
-                  # the optional subpath of your site, e.g. "/blog"
-                  # NB: This applies to all pages in your Jekyll site.
-                  # If you want to move just the blog index pages but keep
-                  # other pages at root, see the paginate_path and
-                  # sidebar_blog_link below.
+title: Georg Leber
+tagline: ''
+description: 'Passionate Web & Cloud developer'
+author: 'Georg Leber'
+url: https://georgleber.github.io
+baseurl: '/' # the optional subpath of your site, e.g. "/blog"
+# NB: This applies to all pages in your Jekyll site.
+# If you want to move just the blog index pages but keep
+# other pages at root, see the paginate_path and
+# sidebar_blog_link below.
 
-author:
-  name:           'Goerg Leber'
-  url:            https://twitter.com/fongandrewc
+# Pagination settings
+paginate: 5
+# paginate_path:    '/page:num' # Or '/blog/page:num' if you want to move your index pages
 
-paginate:         5
-# paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
+# Sidebar link settings
+sidebar_title_link: false
+sidebar_home_link: true
+sidebar_tags_link: false
+sidebar_search_link: false
+sidebar_subscribe_link: true
+# sidebar_blog_link:  '/blog' # By default, your home page is your blog
+# page. If you change your paginate_path,
+# set this to the root of the paginate_path
+# to enable a separate blog link.
 
+# Social links
+social:
+  github: https://github.com/georgleber
+  linkedin: https://www.linkedin.com/in/georgleber/
+  stackoverflow: https://stackoverflow.com/users/119855/georg-leber
+  email: mailto:info@georg-leber.de
+
+# Utterances settings
+utterances:
+  enable: true
+  repo: georgleber/georgleber.github.io
+  label: comment
+  issue_term: pathname # one of: pathname, url, title, og:title, issue number (set correct issue number here), term (set term that a issue title contains)
+  theme: boxy-light # one of: github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, photon-dark, boxy-light, gruvbox-dark
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jemoji
 
-# Sidebar link settings
-sidebar_home_link:  true
-# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
-                                # page. If you change your paginate_path,
-                                # set this to the root of the paginate_path
-                                # to enable a separate blog link.
+

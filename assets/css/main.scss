@@ -1,6 +1,164 @@
 ---
-# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
-# only main files contain this front matter, not partials.
+#  Use a comment to ensure Jekyll reads the file to be transformed into CSS later
 ---
 
-@import "hydeout";
+$sidebar-bg-color: #343984;
+$root-font-family: 'Recursive', sans-serif !default;
+
+@import 'hydeout';
+
+img.emoji {
+  display: inline-block;
+  margin: 0;
+}
+
+#sidebar .profile-image img {
+  border-radius: 0;
+  border: 4px solid #D9DFE7;
+  width: 75%;
+  min-width: 100px;
+}
+
+.home #sidebar .site-title,
+#sidebar .site-title {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #D9DFE7;
+  color: #000000;
+  font-size: 1.5rem;
+  margin-right: -2rem;
+  padding: 4px 4px 0 4px;
+}
+
+@media (max-width: $large-breakpoint) {
+  #sidebar .profile-image {
+    display: none;
+  }
+
+  #sidebar header ~ *,
+  #sidebar header ~ nav,
+  #sidebar p.lead {
+    display: block;
+    text-align: center;
+  }
+
+  #sidebar #sidebar-icon-links {
+    display: flex;
+  }
+}
+
+.home #sidebar p.lead,
+#sidebar p.lead {
+  font-size: 0.8rem;
+  text-align: left;
+  display: block;
+}
+
+#sidebar nav > .icon {
+  font-size: inherit;
+}
+
+#sidebar-icon-links {
+  margin-top: 40px;
+
+  & > a > svg {
+    width: 32px;
+    height: 32px;
+    font-size: 32px;
+  }
+
+  & > #twitter-link > svg {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@media (min-width: $large-breakpoint) {
+  .container {
+    border-left: 4px solid #D9DFE7;
+  }
+
+  .container > * {
+    max-width: 100%;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+}
+
+.experience {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 3rem;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 3rem;
+  }
+
+  .label {
+    grid-column: span 2/span 2;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    font-weight: 600;
+    font-size: .75rem;
+    line-height: 1rem;
+  }
+
+  .description {
+    grid-column: span 6/span 6;
+
+    h3 {
+      margin: 0;
+    }
+
+    .company-info {
+      font-size: 0.8rem;
+      opacity: 0.8;
+    }
+
+    .job-info {
+      margin-top: 20px;
+    }
+  }
+}
+
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li.tag {
+    margin-right: 0.375rem;
+    margin-top: 0.5rem !important;
+
+    .tag-item {
+      display: flex;
+      align-items: center;
+      line-height: 1.25rem;
+      font-weight: 500;
+      font-size: .75rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      background-color: #343984;
+      color: #ffffff;
+
+      a {
+        color: #ffffff;
+      }
+
+      .icon {
+        display: flex;
+
+        svg {
+          fill: white;
+        }
+      }
+    }
+  }
+}

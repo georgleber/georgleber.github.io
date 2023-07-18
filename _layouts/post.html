@@ -10,7 +10,7 @@ layout: default
 
   <div class="post-body">
     {{ content }}
-    {% include post-tags.html post=page %}
+    {% include tags.html tags=page.tags show_icon=true link_tag=true %}
   </div>
 
   {% include comments.html %}

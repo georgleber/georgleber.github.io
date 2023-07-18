@@ -1,0 +1,106 @@
+- id: certado-1
+  year: 09.2021 - present
+  role: CEO and Co-Founder
+  company: Certado GmbH, Königsbrunn
+  job_info: 'Conception, Development and Marketing of the cloud-based application "PSA-Audit".</li></ul>'
+  tags:
+    - Java 11
+    - Kotlin
+    - Angular
+    - Quarkus
+    - Docker
+    - PostgreSQL
+    - Ionic
+    - NGRX
+    - RxJS
+    - jQuery
+    - PHP
+
+- id: cgh-1
+  year: 06.2016 - present
+  role: Co-Founder and Senior Software Developer / Consultant
+  company: CGH IT-Solutions GbR, Aachen
+  job_info: 'Modern Full-Stack web development and consulting with focus on cloud-based applications.
+    <ul><li>Conception, development and marketing of the SaaS products "SkedFlex Fitness" and "PSA-Audit"</li>
+    <li>Conception and development of a bolt testing program with interfaces to external sensors</li></ul>
+    Project assignments:
+    <ul><li>Consulting and support for the development of a cloud solution for the automotive sector
+    <ul><li>Backend: Development of REST based microservices with Spring Boot.</li>
+    <li>Frontend: Development of a SPA with Angular.</li></ul>
+    <small>(4 times recommissioning by material.one AG - Total period: 04.2020 - 09.2023)</small></li>
+    </ul>'
+  tags:
+    - Java 17
+    - Angular 14
+    - Spring Boot
+    - Quarkus
+    - Docker
+    - JFreeChart
+    - JasperReports
+    - WildFly
+    - nginx
+    - PostgreSQL
+    - Microsoft SQL Server
+    - NGRX
+    - RxJS
+
+- id: materialone-1
+  year: 10.2017 - 12.2019
+  role: Senior Software Developer
+  company: logsolut AG, Augsburg
+  job_info: 'Development and implementation of Java EE, Spring Boot and Angular applications in the area of automotive.
+  <ul><li>Conception and development of a gateway passing encrypted company data to the correct supplier.</li>
+  <li>Development of a grid-based web application with Angular for capturing test results of laboratories according to norms defined by OEMs.</li></ul>'
+  tags:
+    - Java EE
+    - Java 11
+    - Spring Boot
+    - Angular
+    - WildFly
+    - Activity
+    - Liquibase
+    - PrimeFaces
+    - Maven
+    - Git
+    - SQL
+    - NGRX
+    - RxJS
+    - Typescript
+
+- id: sct-1
+  year: 09.2012 - 09.2016
+  role: Software Developer
+  company: SCT Supply Chain Technologies GmbH, Herzogenrath
+  job_info: 'Development and implementation of Java EE applications in the area of logistics and scheduling.
+  <ul><li>Development and conception of a monitoring tool via e-mail.</li>
+  <li>Creation of a DSL (Domain Specific Language) for the unified definition of external, SQL-based interfaces./li>
+  <li>Further development and maintenance of the product "DISKOVER SCO".</li></ul>'
+  tags:
+    - Java EE 5
+    - Java 7/8
+    - JSF
+    - PrimeFaces
+    - Vaadin
+    - WildFly
+    - Xtext
+    - Xtend
+    - SWT
+    - MySQL
+    - Oracle
+    - Microsoft SQL Server
+    - DB2
+
+- id: psi-1
+  year: 09.2012 - 09.2016
+  role: System Developer
+  company: PSI Metals Non Ferrous GmbH, Würselen
+  job_info: 'Maintenance and integration of MES and FLS software.
+  <ul><li>Further development and maintenance of MES software partly on site.</li></ul>'
+  tags:
+    - Java EE 5
+    - JBoss AS
+    - JFC (Swing)
+    - Java 6/7
+    - Oracle
+    - MySQL
+    - Microsoft SQL Server
